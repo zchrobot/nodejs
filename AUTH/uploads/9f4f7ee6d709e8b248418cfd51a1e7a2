@@ -1,0 +1,4 @@
+test - CMA
+stage - MARK
+
+localConfig.json -> mock = true

@@ -1,0 +1,30 @@
+{
+    "name": "books",
+    "version": "0.1.0",
+    "description": "Books",
+    "author": "Zenon Chrobot",
+    "main": "index.js",
+    "scripts": {
+        "test": "grunt test",
+        "build": "grunt build",
+        "all": "npm run build && npm run test"
+    },
+    "dependencies": {
+        "connect-flash": "^0.1.1",
+        "construx": "^1.0.0",
+        "construx-copier": "^1.0.0",
+        "construx-dustjs": "^1.1.0",
+        "dust-makara-helpers": "^4.2.0",
+        "express": "^4.12.2",
+        "express-messages": "^1.0.1",
+        "kraken-js": "^2.0.0",
+        "makara": "^2.0.3",
+        "mongodb": "^3.0.3",
+        "mongoose": "^5.0.7"
+    },
+
+    "devDependencies": {
+        "mocha": "^1.18.0",
+        "supertest": "^0.9.0"
+    }
+}

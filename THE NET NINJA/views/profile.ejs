@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+<!--
+  jeśli używamy konstrukcji js <%# javaScript %>
+  jeśli chcemy wyświetlić wartość <%#= value %>
+-->
+<body>
+    <% include ./partials/nav.ejs %>
+    <p>Welcome to the profile of <%= person %></p>
+    <p><strong>Age: </strong><%= data.age %></p>
+    <p><strong>Job: </strong><%= data.job %></p>
+    <h2>hobbies</h2>
+    <ul>
+        <% data.hobbies.forEach((hobby)=> { %>
+            <li><%= hobby %></li>
+        <% }); %>
+    </ul>
+    <% if (false) { %>
+        <div>
+            <span>This will not be rendered</span>
+        </div>
+    <% } %>
+</body>
+</html>

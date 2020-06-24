@@ -1,0 +1,22 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "* npm init",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./config",
+    "debug": "nodemon --inspect dist/",
+    "serve": "nodemon dist/",
+    "watch": "tsc -p ./config -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.4"
+  }
+}
