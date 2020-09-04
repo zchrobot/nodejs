@@ -19,7 +19,7 @@
     "jade": "~1.11.0",
     "moment": "*",
     "mongoose": "^5.0.4",
-    "mongodb": "~2.0",
+    "mongodb": "~3.1",
     "monk": "https://github.com/vccabral/monk.git",
     "morgan": "~1.9.0",
     "multer": "*",
